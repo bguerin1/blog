@@ -1,0 +1,128 @@
+HTML : 
+<!-- Ceci est le début du programme HTML pour la création du blog ! -->
+
+
+<!-- Annexe HTML -->
+
+
+
+<!-- ATTENTION : les balises <em>, <strong>, <mark> 
+ne remplace pas la mise en forme du blog par le langage CSS, 
+elles ne servent qu'a indiquer a la machine l'importance du texte ! --> 
+
+<!-- <p> </p> : paragraphe -->  
+
+
+<!-- INDIQUER A LA MACHINE L'IMPORTANCE D'UN MOT : -->
+
+<!-- <em> </em> : mettre en italique -->                     
+<!-- <strong> </strong> : mettre en gras -->
+<!-- <mark> </mark> : surligner un texte -->
+
+
+
+<!-- FAIRE UNE LISTE : --> 
+
+<!-- <li> </li> : à utiliser pour délimiter chaque élément de la liste -->
+<!-- <ul> </ul> : faire une liste non ordonnée (point) -->
+<!-- <ol> </ol> : faire une liste ordonnée (chiffres) -->
+
+
+
+<!-- TITRE ET TAILLE : --> 
+<!-- <h1> </h1> 
+     <h2> </h2>
+     <h3> </h3>
+     <h4> </h4>
+	 <h5> </h5>        --> 
+
+
+
+
+<!--  ANCRAGE : --> 
+
+<!-- <p id="NomDeLaBalise"> Texte quelconque ou l'on souhaite arriver par ancrage </p> --> 
+
+<!-- <p> <a href="#NomDeLaBalise"> Nom de l'ancrage qui permet d'arriver à "Texte quelconque ou l'on souhaite arriver par ancrage" </a> </p> -->
+
+
+
+
+<!-- ANCRAGE AVEC UNE AUTRE PAGE : --> 
+
+<!-- <p id="NomDeLaPageID"> Texte quelconque ou l'on souhaite arriver par ancrage </p> --> 
+
+<!-- <p> <a href="Dossier/NomDeLaPage.html#NomDeLaBaliseID">Nom de l'ancrage qui permet d'arriver à "Texte quelconque ou l'on souhaite arriver par ancrage" </a> <p/> --> 
+
+
+<!-- INFOBULLE AU SURVOL -->
+
+<!-- title : permet de faire une infobulle -->
+
+<!-- <a href="https://google.com" title="Vous
+ne le regretterez pas !">google</a> ?</p> --> 
+
+
+<!-- OUVRIR UN LIEN DANS UN NOUVEAU ONGLET --> 
+
+<!-- target="_blank" : fonctionne comme title dans l'utilisation --> 
+
+
+
+<!-- FAIRE UN LIEN POUR ENVOYEZ UN MAIL : --> 
+
+<!-- mailto --> 
+<!-- <p> <a href="mailto:bryan.guerin07@gmail.com">Pour envoyez un mail, cliquez ici !</a> --> 
+
+
+
+<!-- FAIRE UN LIEN DE TELECHARGEMENT : --> 
+
+<!-- <p> <a href="Supports HTML + CSS-20230915.zip">Téléchargez le support ici !</a> -->
+
+
+
+
+
+CSS :
+
+/*
+style.css
+---------
+Par Bryan Guerin 
+*/
+/* ANNEXE DES DIFFERENTS 
+color : couleur 
+font-size : taille 
+font-family: mettre une police d'écriture 
+font-style: italique, oblique, normal 
+font-weight: bold (italique), normal
+text-decoration : underline (souligné), line-through (barré), overline (ligne au dessus), none (normal)
+text-align : left, center, right, justify (prend toute la largeur possible sans laisser d'espaces blancs) 
+float : faire un flotter un élément. (left, right) 
+background-color : choisir une couleur de fond 
+background-image: url(../img/fond.png) : définir un fond d'écran 
+background-attachment: scroll : définir sur le fond d'écran est fixe ou déroulant. 
+background-repeat: repeat; définir la répétition du fond d'écran en mosaïque ou non. 
+border : largeur , couleur , type de bordure (none, solid, dotted, dashed, double, groove, ridge, inset ou encore outset.)
+border-top : bordure haut 
+border-bottom : bordure bas 
+border-left : bordure gauche 
+border-right : bordure droite 
+nomdelabalise:hover : permet de changer le design lorsqu'on survole un élément. 
+nomdelabalise: focus 
+nomdelabalise:active 
+nomdelabalise:visited : colorer le lien une fois que la page a été visité. 
+
+LES POLICES DISPONIBLES POUR LE BLOG : 
+
+● Arial ;
+● Arial Black ;
+● Comic Sans MS ;
+● Courier New ;
+● Georgia ;
+● Impact ;
+● Times New Roman ;
+● Trebuchet MS ;
+● Verdana.
+*/ 

@@ -1,0 +1,290 @@
+
+/* ----------------------------------------------------------------GESTION DES PARAMETRES DE LA PREMIERE PAGE DU BLOG !----------------------------------------------------------------------------------------------*/ 
+
+
+/* ------------------ CORPS DE LA PREMIERE PAGE ! --------------------------------*/ 
+
+body
+{
+	font-family: Arial,serif,sans-serif;
+	background: linear-gradient(to left, #A7BFE8, #6190E8);  /* Permet de crée un dégradé entre 2 ou plusieurs couleurs le long d'une ligne droite. to left permet de prendre la couleur foncé a gauche et la couleur claire a droite */
+
+}
+
+
+/* ----------------------------------- TITRES DE LA PAGE D'ACCUEIL DU BLOG ! ---------------------- */ 
+
+h1 
+{   
+	text-align: center;
+	text-decoration: underline;
+	font-weight:bold;
+ 	color: black;
+ 	font-size : xx-large; /* permet de changer la couleur des paragraphes */ 
+ 	font-family: Arial,serif,sans-serif; 
+	
+}
+
+h2
+{
+	text-decoration: underline;
+	text-align: center; 
+	font-family: Arial,serif,sans-serif
+}
+
+h3
+{
+	text-decoration: underline;
+	text-align: center; 
+	font-family: Arial,serif,sans-serif
+}
+
+
+
+
+
+/* -------------------------------- MENU DE NAVIGATION !--------------------------------- */ 
+
+
+.logo
+{
+	color: white;
+	font-size: 35px;
+	line-height : 80px; /* définit la hauteur d'une zone de ligne, sur les éléments en bloc cela permet de spécifier la hauteur minimale d'une zone de ligne au sein de l'élement. La hauteur de "Menu" minimale est 80 px */
+	padding: 100px;
+	font-weight: bold; /*gère le gras du texte selon le paramètre associé. */
+}
+
+
+a:hover                                            /* hover pour l'interaction lorsque l'on survole le lien */
+{
+	background: white;
+	transition: 0.5s;                                /* durée de transition pour passer de l'affichage du lien normal à l'affichage avec animation lors du survol. */ 
+	color: purple;
+	font-family: Arial,serif,sans-serif;
+}
+
+nav
+{
+	background: black;
+	border-radius: 40px; /*permet d'arrondir les bords */
+	height : 80px;   /* définit la hauteur */
+	width: 100%  /*définit la largeur */
+}
+
+nav ul
+{
+	float: right; /* Permet le déplacement de la liste des liens vers la droite */
+	margin-right: 20px; /* marge droite a l'intérieur du bloc de navigation */
+}
+
+nav ul li
+{
+	text-decoration:none;
+	display: inline-block; /* Permet l'affichage du contenu de la liste (lien) sous la forme de bloc (chaque lien a un son bloc) aligné. */ 
+	line-height: 50px; 
+	margin: 0 5px;  /* marge en haut : 0 , marge a droite : 5 pixels */
+	
+}
+
+nav ul li a
+{
+	text-decoration:none;
+	color: white; 
+	font-size: 17px; 
+	padding: 7px 13px; /* marge intérieure de 7px pour la haut, marge intérieure de droite de 13 px */ 
+	border-radius: 3px; /* arrondir les bords */
+	text-transform: uppercase; /* définit la façon d'utiliser les lettres capitales pour un texte : ici nous faisons en sorte que toutes les lettres du nom du lien soient en majuscules. */ 
+}
+
+/* ------------------------- GESTION DES PARAMETRES POUR LES IMAGES ET POUR LA CHARTE GRAPHIQUE GENERALE DU BLOG ---------------------------- */ 
+
+#chartegraphique
+{
+	display: flex;                        /* Façon dont on va afficher. */
+	justify-content: center;               /* définit la manière dont le navigateur va répartir l'espace entre et autour des élements, ici on définit que les élements (texte, images) seront centrés au milieu du bloc */ 
+	border: 3px black solid; 
+	box-shadow: 6px 6px 0px black;         /* permet de faire une boite d'ombre en fonction des axes x et y. */
+	text-align:center;
+	font-family: Arial,serif,sans-serif;
+}
+
+
+
+/* ------------------------- ANCRE "aller vers l'ancre" DE LA PAGE D'ACCUEIL ! ----------------------*/ 
+
+.ancre 
+{
+    text-align: center;
+}
+
+/* ----------------------CONCERNE LE CONTENU DES DIFFERENTES LISTES AVEC LES BALISES LI !------------------ */
+
+li
+{
+	font-size: 1.2em;
+	font-family: Arial,serif,sans-serif
+}
+
+
+/* ------------------------GESTION DES PARAMETRES POUR LES PARAGRAPHES !----------------------------------------- */ 
+
+
+p
+{
+	font-style: normal; /*normal, italique ou oblique */ 
+	font-size: 1.2em; /* l'unité em permet de gérer les tailles avec la balise font-size */ 
+    font-family: Arial,serif,sans-serif;
+	text-align: center;	
+
+}
+
+
+/* --------------------------CONCERNE LES PARAMETRES DE LA BALISE FOOTER DE BAS DE PAGE !-------------------------- */ 
+
+footer 
+{
+	display: flex;
+	border-radius: 40px; 
+	justify-content: center;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-family: Arial, serif,sans-serif;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+
+/*------------------------------------------------------------ GESTION DES PARAMETRES DE LA PAGE DE L'ARTICLE 1 ! ------------------------------------------------------------*/ 
+
+/* -------------------- GESTION DES DIFFERENTES SECTIONS DE LA PAGE DE L'ARTICLE 1 ! -----------------------*/
+
+section
+{
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 20px;
+}
+
+
+.container 
+{
+	display:flex;
+}
+
+
+.sectionTableau  
+{
+	margin:0;
+	padding:0;
+	flex:1;
+	margin-left: 20px 
+
+}
+
+/* ----------------------------------------GESTION DE LA BALISE ASIDE !-------------------------------------------------------*/ 
+
+aside
+{ 
+	margin:0;
+	padding:0;
+	flex:1;
+	margin-left:60px;
+	font-family: Arial,serif,sans-serif;
+}
+
+
+/*---------------------------------------- GESTION DES PARAMETRES DU TABLEAU DE L'ARTICLE 1 ----------------------------------- */ 
+
+table
+{
+	
+	width: 100%;	
+	border-collapse: collapse; /* détermine si les bordures d'un tableau sont fusionnées ou séparées. */ 
+}
+
+caption
+{
+	text-align:center; 
+	caption-side: top;
+	text-decoration: underline; 
+} 
+
+th 
+{
+	border-bottom: 3px black solid; 
+	padding: 3px; 
+}
+
+td
+{
+	padding: 3px; 
+	border: 1px solid black; 
+}
+
+tr:hover
+{
+	background-color: antiquewhite; 
+}
+
+/*--------------------------------- GESTION DE L'IMAGE DE LA PAGE 1 -------------------------------*/ 
+
+
+
+
+/*------------------------------------------- GESTION DES PARAGRAPHES DE LA PAGE 1 -------------------------------------------------------------*/
+
+em
+{
+	
+	text-decoration: underline; 
+	background-color: none; 
+}
+
+
+.indent 
+{
+	text-indent: 70px; 
+	font-family: Arial,serif,sans-serif
+}
+
+
+
+/* ----------------------------------- GESTION DES PARAMETRES DE LA PAGE SOURCE ! ------------------------------------------------*/
+
+.container2
+{
+	display: flex; 
+	
+}
+
+.card
+{
+	border-radius: 20px; 
+	margin-left:10px;
+	height:200px;
+	flex:1;
+	background-color: linear-gradient(to right, #A7BFE8, #6190E8); 
+	transition: .3 all ease;
+	border: 3px black solid;
+
+}
+
+.card:hover 
+{
+	flex:2;
+	background-color : antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
